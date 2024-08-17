@@ -12,7 +12,7 @@ btn.addEventListener("click", function() {
    let h1 = document.querySelector("h1");
    h1.innerText = randomColorArray[0];
 
-   let div = document.querySelector("div");
+   let div = document.querySelector(".color_div");
    div.style.backgroundColor = randomColorArray[0];
    div.style.border =   "5px solid rgb(255, 255, 255)" ;
 
